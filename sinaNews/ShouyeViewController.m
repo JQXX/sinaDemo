@@ -3,7 +3,7 @@
 //  sinaNews
 //
 //  Created by a on 16/6/21.
-//  Copyright © 2016年 yuzhanjie. All rights reserved.
+//  Copyright © 2016年 J. All rights reserved.
 //
 
 #import "ShouyeViewController.h"
@@ -104,7 +104,7 @@
     self.navigationController.navigationBar.translucent = NO;
     
     UIImageView *titileView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 2, 60, 40)];
-    titileView.image = [UIImage imageNamed:@"b_logo_ico_normal_night"];
+    titileView.image = [UIImage imageNamed:@"navi_logo"];
     self.navigationItem.titleView = titileView;
     
     
